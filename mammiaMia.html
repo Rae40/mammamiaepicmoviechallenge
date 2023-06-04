@@ -4,23 +4,86 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Mamma Mia!</title>
   <style>
     body{
-      background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/355/original/living_my_best_life_in_kalokairi.jpeg?1685837599");
+      font-family: 'Playfair Display', serif;
+       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/364/original/MAMMA_MIA!_POLAROID_POSTER.png?1685843517");
       background-repeat: no-repeat;
       background-size: cover;
       color:#2E639B;
+      
     }
 
     .container{
-      background: white;
+      background: #ffff;
+      max-width: 1400px;
+      margin: 0 auto;
       text-align: center;
     }
+
+    .img-responsive{
+      width:100%;
+      display: block;
+    }
+
+    .grid-3-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 64px;
+    }
+
+    .card{
+      background-color:#ffff;
+      margin: 30px 0;
+    }
+
+
+
+
 
     footer{
       background-color:#2E639B;
       color: white;
+    }
+
+    li{
+      list-style: none;
+    }
+
+    @media(max-width: 960px){
+      header {
+        padding: 60px 0;
+      }
+
+      header h1{
+        font-size: 48px;
+      }
+
+      header h2{
+        font-size: 20px;
+      }
+
+      header h3{
+        font-size: 12px;
+      }
+
+      header h4{
+        font-size: 8px;
+      }
+
+      .grid-3-columns{
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+      }
+
+
+    
+
     }
   </style>
 </head>
@@ -31,11 +94,16 @@
  <h1>Mamma Mia!</h1>
  <h2>The Movie</h2>   
  <h3>based on the boardway play</h3>
- <h4>with music by Abba</h4>
+ <h4>featuring the songs of ABBA </h4>
   </header>
   </div>
 
  #E2F0FB
+ <main>
+  <section class="primary">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVpJ8x1Tnc?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
 
  <section class="secondary">
  <div class="grid grid-3-columns">
@@ -54,12 +122,46 @@
 
      </div>
   </div>
+
+   <div class="card">
+    <div class="card-header">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/359/original/Mammamiatracklist.jpeg?1685841217"
+      alt="tracklist" class="img-responsive" />
+     </div>
+
+     <div class="card-body">
+      <p>Thank You For The Music</p>
+     </div>
+     <div class="card-footer">
+      <h4>The Complete Tracklist</h4>
+      <a href="https://open.spotify.com/album/6QtnCAFmqOwR75jOOmU7k9?si=8L4ZjMT5QKiPsVvn6KKO9g">Music from the film</a>
+
+     </div>
+  </div>
+
+   <div class="card">
+    <div class="card-header">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/360/original/Greece_aesthetic.jpeg?1685841645"
+      alt="greece1" class="img-responsive" />
+     </div>
+
+     <div class="card-body">
+      <p>Beautiful Greece</p>
+     </div>
+     <div class="card-footer">
+      <h4>Music from Abba</h4>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3D78h6FPBPC?si=3186ff7b85454cc0">This is Abba</a>
+
+     </div>
+  </div>
 </div>
 </section>
 
+</main>
+
   <footer>
 <ul>
-  <li>Where to Watch</li>
+  <li><a href="https://www.youtube.com/watch?v=9xMjXh2nonY" target="_blank">Where to Watch</a></li>
   <li>Cast</li>
   <li>Music from beloved Movie</li>
 </ul>
