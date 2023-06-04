@@ -11,10 +11,6 @@
   <style>
     body{
       font-family: 'Playfair Display', serif;
-       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
-      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/364/original/MAMMA_MIA!_POLAROID_POSTER.png?1685843517");
-      background-repeat: no-repeat;
-      background-size: cover;
       color:#2E639B;
       
     }
@@ -24,6 +20,11 @@
       max-width: 1400px;
       margin: 0 auto;
       text-align: center;
+    }
+
+    .embed{
+      width:100%;
+      aspect-ratio: 1/1;
     }
 
     .img-responsive{
@@ -47,7 +48,10 @@
 
 
     footer{
-      background-color:#2E639B;
+       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/364/original/MAMMA_MIA!_POLAROID_POSTER.png?1685843517");
+      background-repeat: no-repeat;
+      background-size: cover;
       color: white;
     }
 
@@ -76,6 +80,10 @@
         font-size: 8px;
       }
 
+      .embed{
+    aspect-ratio: 16/9;
+  }
+
       .grid-3-columns{
         grid-template-columns: 1fr;
         grid-gap: 32px;
@@ -103,7 +111,41 @@
   <section class="primary">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVpJ8x1Tnc?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="grid-2-columns">
+    <div>
+      img
+    </div>
+    <div>
+      <h2>
+        My favorite movie
+      </h2>
+      <p>more on movie</p>
+    </div>
+
+     <div>
+      img
+    </div>
+    <div>
+      <h2>
+        My favorite movie
+      </h2>
+      <p>more on movie</p>
+    </div>
+
+     <div>
+      img
+    </div>
+    <div>
+      <h2>
+        My favorite movie
+      </h2>
+      <p>more on movie</p>
+    </div>
+
+  </div>
+  
   </section>
+
 
  <section class="secondary">
  <div class="grid grid-3-columns">
@@ -162,8 +204,9 @@
   <footer>
 <ul>
   <li><a href="https://www.youtube.com/watch?v=9xMjXh2nonY" target="_blank">Where to Watch</a></li>
-  <li>Cast</li>
-  <li>Music from beloved Movie</li>
+  <li><a href="https://www.imdb.com/title/tt0795421/fullcredits?ref_=tt_cl_sm" target="_blank">Cast</a></li>
+  <li><a>Music from beloved Movie</a></li>
+  <li><a href="https://www.buzzfeed.com/Veesah777/which-mamma-mia-character-are-you-based-on-abba-s-333jz?epik=dj0yJnU9Nlp2S0l4ajIyY3VrTEdWMTZmc015UFZWY2xucWpTaVEmcD0wJm49TWFLdzlZSVdqMlVucGZGWjhxR0o1ZyZ0PUFBQUFBR1I3dkln" target="_blank">Which "Mamma Mia!" Character Are You....</a></li>
 </ul>
 
    <p>This <a href="https://github.com/Rae40/mammamiaepicmoviechallenge" target="_blank">open-sourced</a> project was created by Renee Christian
