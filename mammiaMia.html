@@ -9,10 +9,90 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Mamma Mia!</title>
   <style>
-    body{
+  body{
       font-family: 'Playfair Display', serif;
       color:#2E639B;
+       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/355/original/living_my_best_life_in_kalokairi.jpeg?1685837599");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+       .container3{
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+       }
+
+
+
+
+    header{
+      background-image: linear-gradient(rgba(240, 244, 245, 0.8), rgba(176, 223, 247, 0.6)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/367/original/Mamma_Mia!_%282008%29.jpeg?1685847054");
+      background-repeat: none;
+      background-size: cover;
+      padding: 100px 0;
+    }
+
+    header h1{
+      font-size: 86px;
+      line-height: 1;
+      margin: 30px 0;
+      text-transform: uppercase;
+
+
+    }
+
+    header h2{
+      font-size: 62px;
+      line-height: 1;
+      margin: 30px 0;
+      text-transform: uppercase;
       
+    }
+
+    header h3{
+      font-size: 17px;
+      
+    }
+
+    header h4{
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+
+
+
+    iframe{
+      margin: 0 auto;
+      display:block;
+    }
+
+
+    .container2{
+      background-color:  #E2F0FB;
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+      margin-bottom: 40px;
+
+    }
+
+    .grid-2-columns{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:15px;
+      max-width: 1400px;
+      margin: 0 auto;
+     
+    }
+
+     #gridimage{
+      width:50%;
+      display: block;
     }
 
     .container{
@@ -21,6 +101,8 @@
       margin: 0 auto;
       text-align: center;
     }
+
+   
 
     .embed{
       width:100%;
@@ -31,6 +113,8 @@
       width:100%;
       display: block;
     }
+
+    
 
     .grid-3-columns {
       display: grid;
@@ -48,11 +132,13 @@
 
 
     footer{
-       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
-      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/364/original/MAMMA_MIA!_POLAROID_POSTER.png?1685843517");
-      background-repeat: no-repeat;
-      background-size: cover;
+       background:#2E639B;
       color: white;
+    }
+
+    footer a{
+       color: white;
+       text-decoration: none;
     }
 
     li{
@@ -99,45 +185,51 @@
   
   <div class="container">
 <header>
+<h4> Based on the Boardway Play</h4>
  <h1>Mamma Mia!</h1>
- <h2>The Movie</h2>   
- <h3>based on the boardway play</h3>
- <h4>featuring the songs of ABBA </h4>
+ <h2>The Movie</h2>
+ <h3>featuring the songs of ABBA</h3>   
+ 
   </header>
   </div>
 
- #E2F0FB
- <main>
+
+ <main class="container3">
   <section class="primary">
 
+
+<div class="container2">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVpJ8x1Tnc?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <div class="grid-2-columns">
+  
+    <div class="grid-2-columns">
     <div>
-      img
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/374/original/Mamma_Mia!_-_2008.jpeg?1685847724" alt="poster1" id="gridimage">
     </div>
     <div>
       <h2>
-        My favorite movie
+      Movie Description
       </h2>
-      <p>more on movie</p>
+      <p>Set on a colorful Greek island, the plot serves as a background for a wealth of ABBA songs. A young woman about to be married discovers that any one of three men could be her father. She invites all three to the wedding without telling her mother, Donna Sheridan (Meryl Streep), who was once the lead singer of Donna and the Dynamos. In the meantime, Donna has invited her back-up singers, Rosie Mulligan (Dame Julie Walters) and Tanya Wilkinson (Christine Baranski)</p>
+   <button><a href="https://www.imdb.com/title/tt0795421/plotsummary/?ref_=tt_stry_pl">Read More here</a></button>
     </div>
 
-     <div>
-      img
-    </div>
     <div>
       <h2>
-        My favorite movie
+        Greece
       </h2>
       <p>more on movie</p>
+    </div> 
+    <div>
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/365/original/Mamma_Mia_Chapel__Skopelos_Island_Greece.jpeg?1685846969" alt="greekchapel" id="gridimage">
     </div>
+    
 
      <div>
-      img
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/372/original/dancescenemamma.jpeg?1685847643" alt="dancescene" id="gridimage">
     </div>
     <div>
       <h2>
-        My favorite movie
+        Why Not Break Into Song?
       </h2>
       <p>more on movie</p>
     </div>
@@ -145,7 +237,7 @@
   </div>
   
   </section>
-
+</div>
 
  <section class="secondary">
  <div class="grid grid-3-columns">
