@@ -18,7 +18,15 @@
       background-size: cover;
    }
 
-       .container3{
+    .container3{
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+    }
+
+       .primary{
+      background-color:  #E2F0FB;
       max-width: 1400px;
       margin: 0 auto;
       text-align: left;
@@ -72,8 +80,8 @@
 
 
     .container2{
-      background-color:  #E2F0FB;
-      max-width: 1400px;
+      background: #f8f8f8;
+      max-width: 1200px;
       margin: 0 auto;
       text-align: left;
       padding: 15px;
@@ -81,20 +89,39 @@
 
     }
 
+    .container2 h2{
+       font-size: 42px;
+      line-height: 1;
+      margin: 30px 0;
+      letter-spacing: 5px;
+      font-style: italic;
+
+    }
+
     .grid-2-columns{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-gap:15px;
-      max-width: 1400px;
+      grid-gap:10px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 45px;
+      padding: 25px;
      
     }
 
      #gridimage{
       width:50%;
-      display: block;
+      display:block;
     }
+
+    #paragraphlinks{
+      color:#2E639B;
+      text-decoration: none;
+    }
+
+     #paragraphlinks :hover{
+      text-decoration:underline;
+      cursor:pointer;
+     }
 
     .container{
       background: #ffff;
@@ -126,6 +153,8 @@
     .card{
       background-color:#ffff;
       margin: 30px 0;
+      text-align: center;
+      
     }
 
 
@@ -136,7 +165,8 @@
        background:#E2F0FB;
        color: #2E639B;
        display:grid;
-       grid-template-columns: 1fr 1fr;
+       grid-template-columns: 3fr 2fr 2fr;
+        font-size: 15px;
     }
 
     
@@ -153,12 +183,13 @@
 
    footer li{
       list-style: none;
-      margin: 0;
-      padding:0;
+      margin: 30px 0;
+      padding:1px;
+     
     }
 
     footer ul{
-      padding: 10px;
+      padding: 5px;
 
     }
 
@@ -226,8 +257,8 @@
       <h2>
       Movie Description
       </h2>
-      <p>Set on a colorful Greek island, the plot serves as a background for a wealth of ABBA songs. A young woman about to be married discovers that any one of three men could be her father. She invites all three to the wedding without telling her mother, Donna Sheridan (Meryl Streep), who was once the lead singer of Donna and the Dynamos. In the meantime, Donna has invited her back-up singers, Rosie Mulligan (Dame Julie Walters) and Tanya Wilkinson (Christine Baranski)</p>
-   <button><a href="https://www.imdb.com/title/tt0795421/plotsummary/?ref_=tt_stry_pl" target="_blank">Read More here</a></button>
+      <p>Set on a colorful Greek island, the plot serves as a background for a wealth of ABBA songs. A young woman about to be married discovers that any one of three men could be her father. She invites all three to the wedding without telling her mother, Donna Sheridan (Meryl Streep), who was once the lead singer of Donna and the Dynamos. In the meantime, Donna has invited her back-up singers, Rosie Mulligan (Dame Julie Walters) and Tanya Wilkinson (Christine Baranski)<a href="https://www.imdb.com/title/tt0795421/plotsummary/?ref_=tt_stry_pl" target="_blank" id="paragraphlinks">......</a></p>
+   
     </div>
 
     <div>
@@ -239,9 +270,10 @@
       </h3>
 
       <p>Where is This paradise?</p>
-      <p>The location in question, known as Kalokairi in the film, was the Greek island of Skopelos. One of the Sporades, it sits pretty off the eastern shore of the mainland and was largely known for its abundance of plums until, in summer 2007, Hollywood arrived. While the sequel saw filming take over the Croatian island of Vis for six weeks, the cast and crew stayed just seven days on Skopelos a decade ago – but they took in enough of its rugged beauty to turn it into a newly hot destination, complete with a discreet but signposted Mamma Mia! trail.</p>
-      <button><a href="https://www.cntraveller.com/gallery/where-was-mamma-mia-filmed"></a>Read More Here</button>
+      <p>The location in question, known as Kalokairi in the film, was the Greek island of Skopelos. One of the Sporades, it sits pretty off the eastern shore of the mainland and was largely known for its abundance of plums until, in summer 2007, Hollywood arrived. While the sequel saw filming take over the Croatian island of Vis for six weeks, the cast and crew stayed just seven days on Skopelos a decade ago – but they took in enough of its rugged beauty to turn it into a newly hot destination, complete with a discreet but signposted Mamma Mia! trail.<a href="https://www.cntraveller.com/gallery/where-was-mamma-mia-filmed" target="_blank" id="paragraphlinks">......</a></p>
+     </p>
     </div> 
+
     <div>
       <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/365/original/Mamma_Mia_Chapel__Skopelos_Island_Greece.jpeg?1685846969" alt="greekchapel" id="gridimage">
     </div>
@@ -254,7 +286,7 @@
       <h2>
         Why Not Break Into Song?
       </h2>
-      <p>more on movie</p>
+      <p>There's over 20 ABBA songs in the musical, including "I Have a Dream," "Waterloo," "Voulez-Vous," and "The Winner Takes It All."<a href="https://www.londontheatre.co.uk/theatre-news/news/all-the-abba-songs-in-mamma-mia" target="_blank" id="paragraphlinks">......</a></p>
     </div>
 
   </div>
@@ -275,7 +307,7 @@
      </div>
      <div class="card-footer">
       <h4>Music from Abba</h4>
-      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3D78h6FPBPC?si=3186ff7b85454cc0">This is Abba</a>
+     <h4><a href="https://open.spotify.com/playlist/37i9dQZF1DX3D78h6FPBPC?si=3186ff7b85454cc0">This is Abba</a></h4>
 
      </div>
   </div>
@@ -291,7 +323,7 @@
      </div>
      <div class="card-footer">
       <h4>The Complete Tracklist</h4>
-      <a href="https://open.spotify.com/album/6QtnCAFmqOwR75jOOmU7k9?si=8L4ZjMT5QKiPsVvn6KKO9g">Music from the film</a>
+      <h4><a href="https://open.spotify.com/album/6QtnCAFmqOwR75jOOmU7k9?si=8L4ZjMT5QKiPsVvn6KKO9g">Music from the film</a></h4>
 
      </div>
   </div>
@@ -307,7 +339,7 @@
      </div>
      <div class="card-footer">
       <h4>Music from Abba</h4>
-      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3D78h6FPBPC?si=3186ff7b85454cc0">This is Abba</a>
+      <h4><a href="https://open.spotify.com/playlist/37i9dQZF1DX3D78h6FPBPC?si=3186ff7b85454cc0">This is Abba</a></h4>
 
      </div>
   </div>
@@ -320,9 +352,13 @@
 <ul>
   <li><a href="https://www.youtube.com/watch?v=9xMjXh2nonY" target="_blank">Where to Watch</a></li>
   <li><a href="https://www.imdb.com/title/tt0795421/fullcredits?ref_=tt_cl_sm" target="_blank">Cast</a></li>
-  <li><a>Music from beloved Movie</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="https://open.spotify.com/album/6QtnCAFmqOwR75jOOmU7k9?si=MRqZ69m2SHieXsx4Ab3cvg" target="_blank">Music from beloved Movie</a></li>
   <li><a href="https://www.buzzfeed.com/Veesah777/which-mamma-mia-character-are-you-based-on-abba-s-333jz?epik=dj0yJnU9Nlp2S0l4ajIyY3VrTEdWMTZmc015UFZWY2xucWpTaVEmcD0wJm49TWFLdzlZSVdqMlVucGZGWjhxR0o1ZyZ0PUFBQUFBR1I3dkln" target="_blank">Which "Mamma Mia!" Character Are You....</a></li>
 </ul>
+  </ul>
 
    <p>This <a href="https://github.com/Rae40/mammamiaepicmoviechallenge" target="_blank">open-sourced</a> project was created by Renee Christian
   </p> 
